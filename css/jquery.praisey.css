@@ -1,0 +1,65 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300);
+
+
+.praisey-container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+.praisey-item{
+  text-align: center;
+  display: none;
+}
+
+.praisey-item img{
+  width: 120px;
+  height: 150px;
+  border-radius:  50%;
+
+}
+
+.praisey-item .name{
+
+  font-size: 30px;
+  color: #226789;
+}
+
+.praisey-item .job_title{
+
+  font-size: 18px;
+  padding: 5px 0;
+  color: #226789;
+}
+
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.praisey-item .comment{
+  line-height: 1.7em;
+  background: #226789;
+  color: #fff;
+  padding: 20px 30px;
+  font-weight: 400;
+}
+
+.job_title .nav_next, .job_title .nav_prev{
+  font-size: 20px;
+  margin: 0px 30px;
+  position: relative;
+  top: -20px;
+  font-weight: bold;
+  background: #226789;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.job_title .nav_next:hover, .job_title .nav_prev:hover{
+  cursor: pointer;
+}
